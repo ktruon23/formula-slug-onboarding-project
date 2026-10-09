@@ -18,6 +18,7 @@ There are three different brake related signals. ETC_STATUS_BRAKELIGHT is a simp
 2. a) Using matplotlib, graph the speed of the car vs time. Refer to the [data_columns.csv](https://github.com/formulaslug/fs-5-software-intro-projects/blob/main/data/data_columns.csv) to know which column means what. Use that graph to find the speed of the car at 10s. To find the speed of the car, use 'SME_TRQSPD_Speed.' It is measured in RPM which you will need to convert. Please refer to the physics section below for the explanation. 
 3. Give a time frame for when the car is accelerating, braking, and coasting. Explain how you found these values out. Then plot those states over time on three different graphs
 4. Find out how many laps the car drove as well as the start and end time for each lap. The car has a GPS system you can utilize to visualize this. Provide a screenshot of your method along with an explanation of how you went about finding this.
+#use latitude and longitude, when the car gets back to the same latitude and longitude, as the start, then a lap has been completed
 5. Using the lap times found from part 4, determine the max speed, max acceleration, time spent accelerating, and time spent coasting. 
 6. From the coasting data (from all laps), remove anything below 5 m/s and anything below a second. 
 7. Use that coast down data to determine vehicle drag + rolling resistance. Please refer below for the explanation of the physics. 
